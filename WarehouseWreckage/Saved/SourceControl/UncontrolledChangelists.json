@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/StarterContent/Maps/WarehouseWreckage.umap",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/BP_Projectile.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/IndustryPropsPack6/Maps/Showcase.umap",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/Main.umap",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/IndustryPropsPack6/Meshes/SM_Barrel01.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/WarehouseWreckage/Content/BP_Barrel.uasset"
+			]
+		}
+	]
+}
