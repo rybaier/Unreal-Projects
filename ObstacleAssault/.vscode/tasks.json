@@ -1,0 +1,995 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleAssault Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"Mac",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"IOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Test",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssault TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssault TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssault",
+				"TVOS",
+				"Shipping",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssaultEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Debug",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssaultEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssaultEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssaultEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssaultEditor",
+				"Mac",
+				"Development",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		}
+	]
+}
