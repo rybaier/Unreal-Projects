@@ -88,13 +88,13 @@
 			"name": "Generate Project Files",
 			"type": "coreclr",
 			"request": "launch",
-			"preLaunchTask": "UnrealBuildTool Mac Development Build",
 			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUBT.bat",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-engine",
-				"-dotnet"
+				"-project=/Users/ryanbaier/Desktop/Unreal-Projects/ObstacleAssault/ObstacleAssault.uproject",
+				"-game",
+				"-engine"
 			],
 			"console": "internalConsole",
 			"internalConsoleOptions": "openOnSessionStart",
