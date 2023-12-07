@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "AssaultObstacleEditor Editor Mac Development (AssaultObstacle)",
+            "compilerPath": "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
+            ],
+            "macFrameworkPath": [
+                "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_AssaultObstacle.json"
+        },
+        {
+            "name": "Mac",
+            "compilerPath": "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
+            ],
+            "macFrameworkPath": [
+                "/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

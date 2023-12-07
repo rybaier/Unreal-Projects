@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.Build.cs",
+		"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle.Target.cs",
+		"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacleEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}
