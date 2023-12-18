@@ -6,6 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/Main.umap",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/BP_MovingPlatform.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/BP_PushingCube.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/BP_ThirdPersonCharacter.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/BP_MovingIsland.uasset",
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Content/BP_TransportFloor.uasset",
 				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Content/Main.umap",
 				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
 				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Content/BP_ThirdPersonCharacter.uasset"
