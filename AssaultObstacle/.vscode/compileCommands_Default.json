@@ -1,41 +1,41 @@
 [
 	{
-		"file": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.Build.cs",
+		"file": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.Build.cs",
 		"arguments": [
 			"/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"@/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
+			"@/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
 		],
 		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.cpp",
+		"file": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.cpp",
 		"arguments": [
 			"/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"@/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
+			"@/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
 		],
 		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.h",
+		"file": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.h",
 		"arguments": [
 			"/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"@/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
+			"@/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
 		],
 		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/MovingPlatform.cpp",
+		"file": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/MovingPlatform.cpp",
 		"arguments": [
 			"/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"@/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
+			"@/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
 		],
 		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	},
 	{
-		"file": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/MovingPlatform.h",
+		"file": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/MovingPlatform.h",
 		"arguments": [
 			"/Users/ryanbaier/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"@/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
+			"@/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default/AssaultObstacle.241.rsp"
 		],
 		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
 	}

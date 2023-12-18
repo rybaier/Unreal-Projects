@@ -4,7 +4,7 @@
 		{
 			"name": "Launch AssaultObstacle (Debug)",
 			"request": "launch",
-			"program": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"program": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
 			"preLaunchTask": "AssaultObstacle Mac Debug Build",
 			"args": [
 			],
@@ -14,7 +14,7 @@
 		{
 			"name": "Launch AssaultObstacle (DebugGame)",
 			"request": "launch",
-			"program": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"program": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
 			"preLaunchTask": "AssaultObstacle Mac DebugGame Build",
 			"args": [
 			],
@@ -24,7 +24,7 @@
 		{
 			"name": "Launch AssaultObstacle (Development)",
 			"request": "launch",
-			"program": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"program": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
 			"preLaunchTask": "AssaultObstacle Mac Development Build",
 			"args": [
 			],
@@ -34,7 +34,7 @@
 		{
 			"name": "Launch AssaultObstacle (Test)",
 			"request": "launch",
-			"program": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"program": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
 			"preLaunchTask": "AssaultObstacle Mac Test Build",
 			"args": [
 			],
@@ -44,7 +44,7 @@
 		{
 			"name": "Launch AssaultObstacle (Shipping)",
 			"request": "launch",
-			"program": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"program": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
 			"preLaunchTask": "AssaultObstacle Mac Shipping Build",
 			"args": [
 			],
@@ -57,7 +57,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
 			"preLaunchTask": "AssaultObstacleEditor Mac Debug Build",
 			"args": [
-				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/AssaultObstacle.uproject"
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/AssaultObstacle.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.1",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
 			"preLaunchTask": "AssaultObstacleEditor Mac DebugGame Build",
 			"args": [
-				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/AssaultObstacle.uproject"
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/AssaultObstacle.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.1",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
 			"preLaunchTask": "AssaultObstacleEditor Mac Development Build",
 			"args": [
-				"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/AssaultObstacle.uproject"
+				"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/AssaultObstacle.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.1",
 			"type": "lldb"
@@ -92,7 +92,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/AssaultObstacle.uproject",
+				"-project=/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/AssaultObstacle.uproject",
 				"-game",
 				"-engine"
 			],

@@ -13,7 +13,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64",
-            "compileCommands": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_AssaultObstacle.json"
+            "compileCommands": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_AssaultObstacle.json"
         },
         {
             "name": "Mac",
@@ -28,7 +28,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64",
-            "compileCommands": "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/.vscode/compileCommands_Default.json"
+            "compileCommands": "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/.vscode/compileCommands_Default.json"
         }
     ],
     "version": 4

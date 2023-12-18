@@ -268,13 +268,13 @@
 -I"Runtime/MovieSceneCapture/Public"
 -I"../Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AnimationDataController/UHT"
 -I"Developer/AnimationDataController/Public"
--I"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AssaultObstacle/UHT"
--I"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source"
+-I"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/AssaultObstacle/UHT"
+-I"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source"
 -isystem"ThirdParty/mimalloc/include"
 -isystem"ThirdParty/LibTiff/Source/Mac"
 -isystem"ThirdParty/LibTiff/Source"
--include-pch "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/AssaultObstacleEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.gch"
--include "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/Definitions.AssaultObstacle.h"
+-include-pch "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/AssaultObstacleEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.gch"
+-include "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/Definitions.AssaultObstacle.h"
 -Wall
 -Werror
 -Wdelete-non-virtual-dtor
@@ -326,6 +326,6 @@
 -std=c++17
 -fpch-validate-input-files-content
 -stdlib=libc++
-"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.cpp"
--MD -MF"/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/AssaultObstacle.cpp.d"
--o "/Users/ryanbaier/Documents/Unreal Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/AssaultObstacle.cpp.o"
+"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Source/AssaultObstacle/AssaultObstacle.cpp"
+-MD -MF"/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/AssaultObstacle.cpp.d"
+-o "/Users/ryanbaier/Desktop/Unreal-Projects/AssaultObstacle/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/AssaultObstacle/AssaultObstacle.cpp.o"
